@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BACKLOG	server/server.c	4;"	d	file:
+BUFFSIZE	client/client.c	12;"	d	file:
+BUFFSIZE	server/server.c	5;"	d	file:
+IP	client/client.c	13;"	d	file:
+ONLINE_FILE	include/base.h	11;"	d
+PORT	client/client.c	11;"	d	file:
+PORT	server/server.c	3;"	d	file:
+addr_s	include/base.h	/^typedef struct addr_s$/;"	s
+addr_s	include/base.h	/^}addr_s __attribute__((aligned(4))) ;$/;"	t	typeref:struct:addr_s
+ip	include/base.h	/^	unsigned char ip[15];$/;"	m	struct:addr_s
+main	client/client.c	/^int main(int argc,char *argv[])  $/;"	f
+main	server/server.c	/^int main(int argc, char *argv[])$/;"	f
+port	include/base.h	/^	unsigned int  port;$/;"	m	struct:addr_s
