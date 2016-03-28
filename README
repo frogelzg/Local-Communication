@@ -1,3 +1,20 @@
-This is my first project.
+Introduction:
 
-It is a communication tool at the local network.
+	This is my first project, just a demo. If you have any suggestion or advice, please feel free to let me know.
+
+Details:
+
+	This is a communication tool at the local network. There are two different programs:
+	* server	Accepting users login in and maintaining on-line table and their friends  
+	* customer	Users use this to communicate with each other
+
+# Server:
+	
+	* Maintaining users table and accepting users login in who are in the users table.
+	* Maintaining On-line table and push them to whom has a friendship with them.
+
+# Cliet：
+	
+	* Login in and get friends table from server
+	* Chat with each other by the friens list
+
