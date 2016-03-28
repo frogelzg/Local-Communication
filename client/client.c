@@ -10,7 +10,7 @@
   
 #define PORT    5694  
 #define BUFFSIZE  1024  
-#define IP		"192.168.1.102"
+#define IP		"10.0.0.3"
 
 int main(int argc,char *argv[])  
 {  
